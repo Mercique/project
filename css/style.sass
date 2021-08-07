@@ -1,0 +1,42 @@
+$whiteDark: #f0f0f0
+$grey: #999999
+
+body
+    font-family: 'Lato', sans-serif;
+    font-size: 16px
+    font-weight: 400
+    line-height: 1.6
+    letter-spacing: 1.6
+    width: 100vw
+    height: 100vh
+    display: flex
+    align-items: center
+    justify-content: center
+    background-color: $grey
+
+h1
+    font-size: 50px
+    font-weight: 700
+
+.header
+    .nav
+        display: flex
+        flex-direction: column
+        align-items: center
+        &__title
+            color: $whiteDark
+            margin-bottom: 50px
+        &__link
+            display: block
+            text-decoration: none
+            width: 300px
+            height: 50px
+            display: flex
+            align-items: center
+            justify-content: center
+            border: 1px solid $whiteDark
+            color: $whiteDark
+            transition: all .2s ease
+            &:hover
+                background-color: $whiteDark
+                color: $grey
